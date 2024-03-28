@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subject Marks and Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Track and calculate your grades</h2>
+    <div class="container">
+        <label for="numSubjects">Enter the number of subjects:</label>
+        <input type="number" id="numSubjects" min="1" required>
+        <button onclick="generateForm()">Submit</button>
+        <div id="subjectsForm"></div>
+        <button onclick="calculateResults()">Calculate Results</button>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
